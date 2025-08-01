@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== BOXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Practiceadda</title>
+    <style>
+        form{
+            display:flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+            background-image: linear-gradient(45deg, #330808, #3a2c09 );
+            border-radius: 2.5em;
+            padding: 30px;
+            width: 300px;
+            height: 350px;
+            margin: 0 auto;
+        }
+        .form::before{
+            content: '';
+            background-image: linear-gradient(45deg, #ff0000, #ffcc00);
+            height: 358px;
+            width: 309px;
+            position: absolute;
+            margin-top: -34px;
+            margin-left: px;
+            z-index: -1;
+            border-radius: 2.7em;
+        }
+        .button{
+            margin-top: 10px;
+            font-size: 17px;
+            background: #ff5900;
+            color: black;
+            padding: 0.7em 5.5em;
+            display: flex;
+            align-items: center;
+            border: 2px solid #66da4300;
+            border-radius: 5em;
+            overflow: hidden;
+            transition: all 0.2s;
+            cursor: pointer;
+        }
+        .button:hover{
+            border: 2px solid #ff5900;
+            background: #00000000;
+            color: #ff5900;
+        }
+        .button:active{
+            border: 2px solid #66da4300;
+            background: #ff5900;
+            color: black;
+        }
+        .input{
+            width: calc(100% - 10px);
+            padding: 8px;
+            margin-bottom: 20px;
+            border: 1px solid #66da4300;
+            border-bottom: 1px solid #ff5900;
+            outline:none;
+            background-color: transparent;
+            color: #ff5900;
+            transition: 0.2s;
+        }
+        .input:focus {
+            border: 1px solid #66da4300;
+            border-bottom: 1px solid #ff5900;
+            background-color: transparent;
+            color: white;
+        }
+        .input::placeholder{
+            color: #9b725b
+        }
+
+        .textarea{
+            width: calc(100% - 10px);
+            padding: 8px;
+            height: 100px;
+            margin-bottom: 20px;
+            border: 1px solid #66da4300;
+            border-bottom: 1px solid #ff5900;
+            outline: none;
+            background-color: transparent;
+            color: #ff5900;
+        }
+        .textarea::placeholder{
+            color:#9b725b;
+        }
+        .textarea:focus{
+            border: 1px solid #66da4300;
+            border-bottom: 1px solid #ff5900;
+            background-color: transparent;
+            color: white;
+        }
+    </style>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Practice Adda</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link active-link">
+                <i class="bx bx-home-alt nav__icon"></i>
+                <span class="nav__name">Home</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="about.html" class="nav__link">
+                <i class="bx bx-user nav__icon"></i>
+                <span class="nav__name">About</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="bx bx-book-alt nav__icon"></i>
+                <span class="nav__name">Blogs</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">
+                <i class="bx bx-briefcase-alt nav__icon"></i>
+                <span class="nav__name">Daily Task</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="contact.html" class="nav__link">
+                <i class="bx bx-message-square-detail nav__icon"></i>
+                <span class="nav__name">Contact Us</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- <img src="resources/img/practiceadda.png" alt="" class="nav__img" /> -->
+      </nav>
+    </header>
+    <main class="main">
+      <form class="form" action="https://docs.google.com/forms/d/e/1FAIpQLSePBw5laxFh1mHrq1KI51GM7zK44QIespEAkG2MBAJ1WU1_ug/formResponse">
+    <input class="input" type="text" name="entry.2005620554"  placeholder="Your Name"/>
+    <input class="input" type="email" name="entry.1045781291"  placeholder="Your Email"/>
+    <input class="textarea" type="text" name="entry.839337160"  placeholder="Your Message"/>
+    <button class="button">Submit</button>
+   </form> 
+    </main>
+    <!--=============== MAIN JS ===============-->
+    <script src="js/main.js"></script>
+  </body>
+</html>
