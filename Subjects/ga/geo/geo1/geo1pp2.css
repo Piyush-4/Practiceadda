@@ -2,7 +2,7 @@
 
 /*=============== VARIABLES CSS ===============*/
 :root {
-  --header-height: 3rem;
+  --header-height: 4rem;
 
   /*========== Colors ==========*/
   --hue: 174;
@@ -263,7 +263,7 @@ margin-top: 3rem;
 
 /*========== Header section ends Here ============*/
 .back-btn{
-  margin-top: 5rem;
+  margin-top: 6rem;
   margin-bottom: 0;
 }
 .back-btn a{
