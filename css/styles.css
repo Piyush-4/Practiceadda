@@ -330,14 +330,14 @@ main{
 .hero-left p{
     font-size: 1.1rem;
     text-align: center;
-    width:95%;
+    width:100%;
     margin-top: 20px;
     line-height: 1.5;
 }
 
 .hero-right{
     width:100%;
-    margin-top: 50px;
+    margin-top: 60px;
 }  
 .hero-right a{
     width:300px;
@@ -346,4 +346,26 @@ main{
     display: block;
     margin: 1rem auto;
 }
+}
+
+.download-section{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 50px;
+}
+
+.download-section a{
+  background-color: #ffcc00;
+  color: #090040;
+  width: 200px;
+  border-radius: 1rem;
+  padding: 10px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+}
+.download-section a:hover{
+ background-color: #090040;
+ color: #ffcc00;
 }

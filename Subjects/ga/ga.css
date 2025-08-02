@@ -267,7 +267,7 @@ margin-top:15vh;
   margin: 0 auto;
 }
 .sub-subject-list{
-  margin-top: 100px;
+  margin-top: 130px;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -320,7 +320,7 @@ color: #ffcc00;
   margin: 0 auto;
 }
 .sub-subject-list{
-  margin-top: 100px;
+  margin-top: 130px;
 }
 }
 
@@ -330,7 +330,7 @@ color: #ffcc00;
   margin: 0 auto;
 }
 .sub-subject-list{
-  margin-top: 60px;
+  margin-top: 90px;
   display: block;
 }
 .sub-subjects{
